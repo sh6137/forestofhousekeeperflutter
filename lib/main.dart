@@ -11,6 +11,7 @@ import 'package:provider/provider.dart';
 
 import 'search.dart' as search;
 import 'home.dart' as home;
+import 'map.dart' as map;
 
 void main() {
   runApp(
@@ -32,7 +33,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: [home.Home(), Text('샵')][tab],
+      body: [home.Home(), map.KakaoMapTest()][tab],
       bottomNavigationBar: BottomNavigationBar(
         // showSelectedLabels: false,
         // showUnselectedLabels: false,

@@ -30,5 +30,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-    </application>
+   </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <meta-data android:name="com.kakao.sdk.AppKey" android:value="bd73e9323d267137fbbb5cec12e5c05a"/>
 </manifest>
